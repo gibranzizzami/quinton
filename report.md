@@ -281,9 +281,81 @@ Tidak lolos pengujian:
 * lqx
 * linux lts / linux / linux zen / linux-rt
 * kernel yang statusnya **gagal**
+* 
+### Desktop Environment 
+Perbandingan Desktop Environment
+1. Penggunaan CPU
 
+- Fluxbox memiliki penggunaan CPU paling rendah dan paling stabil, sehingga sangat cocok untuk perangkat dengan spesifikasi sangat terbatas.
+
+- LXDE (Openbox) berada di tingkat menengah, lebih ringan dibanding XFCE dan LXQt, namun masih mengalami lonjakan saat membuka aplikasi.
+
+- XFCE 4.20 (normal & linux-lts) menunjukkan penggunaan CPU cukup tinggi dan fluktuatif, terutama saat browsing dan membuka halaman web berat.
+
+- XFCE (linux-vfio-lts) sedikit lebih efisien dibanding XFCE standar karena batas penggunaan CPU lebih rendah.
+
+- LXQt 2.3 memiliki penggunaan CPU tertinggi, terutama saat multitasking dan membuka aplikasi.
+
+2. Tampilan & Desain
+
+- XFCE dan LXQt menyediakan dark mode dan tampilan yang relatif konsisten, meskipun kesan visual default masih terbilang kuno.
+
+- LXDE memiliki tampilan klasik dengan konsistensi tema cukup baik, namun animasi UI kurang halus.
+
+- Fluxbox paling minim secara visual, tampilan kaku, tanpa dark mode, dan lebih fokus pada efisiensi daripada estetika.
+
+- XFCE (linux-vfio-lts) tampil sangat minimal (bahkan kosong), mengutamakan performa dibanding kenyamanan visual.
+
+3. Kemudahan Penggunaan
+
+- XFCE dan LXQt paling ramah pemula karena navigasi menu mudah dan pengaturan sistem lengkap.
+
+- LXDE masih tergolong mudah digunakan, tetapi pengaturan tersebar dan tidak terpusat.
+
+- Fluxbox dan XFCE (linux-vfio-lts) tidak ramah pemula, karena minim GUI, pengaturan manual, dan navigasi menu kurang intuitif.
+
+4. Responsivitas & Kenyamanan
+
+- Fluxbox sangat responsif untuk mouse dan keyboard, cocok untuk penggunaan ringan tanpa multitasking berat.
+
+- XFCE memberikan animasi paling halus, tetapi mengalami lag saat beban kerja meningkat (web berat, YouTube).
+
+- XFCE (linux-vfio-lts) unggul dalam switching workspace dan kestabilan browsing, meskipun ada kendala perangkat input.
+
+- LXDE cukup responsif, namun animasi terasa kaku dan ada jeda saat membuka aplikasi.
+
+- LXQt responsif saat multitasking, tetapi delay awal membuka aplikasi cukup mengganggu.
+
+5. Kecocokan Penggunaan
+
+- Fluxbox → Server ringan, PC sangat lama, atau pengguna mahir yang mengutamakan performa.
+
+- XFCE → Pengguna umum & pemula yang menginginkan kemudahan dan fitur lengkap.
+
+- XFCE (linux-vfio-lts) → Pengguna lanjutan yang fokus stabilitas dan performa khusus.
+
+- LXDE → Pengguna dengan spesifikasi rendah yang tetap menginginkan antarmuka grafis sederhana.
+
+- LXQt → Pengguna multitasking dengan spesifikasi menengah ke atas.
 ## Conclusion
 
-Berdasarkan seluruh rangkaian riset yang telah dilakukan, dapat disimpulkan bahwa pendekatan riset yang terstruktur dan transparan sangat berpengaruh terhadap kualitas hasil yang diperoleh. Pencatatan error sebagai bagian dari data terbukti memberikan nilai tambah dalam memahami kondisi nyata sistem.
+### Desktop Environment
+Berdasarkan perbandingan penggunaan CPU dan pengalaman pengguna (UX), setiap desktop environment memiliki keunggulan dan keterbatasan yang berbeda.
 
-Riset ini berhasil mencapai tujuan awal, yaitu menghasilkan data yang objektif dan dapat digunakan sebagai dasar evaluasi serta pengambilan keputusan. Ke depan, riset lanjutan dapat dilakukan dengan memperluas parameter pengujian atau menambahkan variasi skenario agar hasil yang diperoleh semakin komprehensif dan akurat.
+XFCE 4.20 (baik kernel normal maupun linux-lts) menawarkan pengalaman pengguna paling seimbang. Navigasi mudah, pengaturan sistem lengkap, dan cocok untuk pemula. Namun, penggunaan CPU relatif tinggi dan performa menurun saat membuka halaman web berat atau melakukan scrolling YouTube, terutama di awal pemakaian.
+
+Fluxbox 1.3.7 merupakan desktop environment paling ringan dari sisi penggunaan CPU. Performa sangat responsif dan cocok untuk perangkat dengan spesifikasi sangat rendah. Akan tetapi, dari sisi UX kurang ramah pengguna karena minim fitur, navigasi menu sulit, dan tidak cocok untuk pemula atau penggunaan harian yang membutuhkan kenyamanan.
+
+XFCE 4.20 (linux-vfio-lts) menunjukkan stabilitas performa yang lebih baik dibanding XFCE standar, dengan penggunaan CPU lebih rendah dan browsing lebih stabil. Namun, kekurangan pada fungsionalitas (tampilan kosong, touchpad tidak berfungsi, konfigurasi manual) membuatnya kurang ideal untuk pengguna umum dan lebih cocok untuk pengguna tingkat lanjut.
+
+LXDE (Openbox) berada di posisi tengah antara ringan dan mudah digunakan. Penggunaan CPU lebih rendah dibanding XFCE, navigasi cukup ramah pemula, tetapi animasi kurang halus dan masih terdapat lag saat membuka aplikasi atau scrolling video, sehingga belum optimal untuk penggunaan harian intensif.
+
+LXQt 2.3 menawarkan fitur dan multitasking yang baik, tampilan modern dengan dark mode, serta pengaturan sistem lengkap. Namun, penggunaan CPU cenderung tinggi dan terdapat delay signifikan saat membuka aplikasi, yang mengurangi efisiensi pada perangkat dengan sumber daya terbatas.
+
+- Secara umum, tidak ada desktop environment yang unggul di semua aspek.
+
+- Untuk perangkat sangat low-spec, Fluxbox paling efisien namun mengorbankan kenyamanan.
+
+- Untuk pengguna pemula, XFCE dan LXQt lebih ramah, meski lebih berat.
+
+- Untuk keseimbangan ringan dan usability, LXDE dan XFCE (dengan optimasi) menjadi pilihan kompromi terbaik.
