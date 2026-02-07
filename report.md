@@ -19,8 +19,93 @@ Proses riset dilakukan secara bertahap, dimulai dari persiapan lingkungan penguj
 Selama proses riset, seluruh aktivitas dicatat secara rinci, termasuk kondisi awal sistem, perubahan konfigurasi, dan hasil pengamatan. Dokumentasi dilakukan secara real-time untuk meminimalkan kehilangan data penting.
 
 ### kernel
+#### 1. linux git
+
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-git-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-git-using.png" width="800">
 
 
+#### 2. linux lqx
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-lqx-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-lqx-using.png" width="800">
+
+
+#### 3 linux lts61
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-lts61-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-lts61-using.png" width="800">
+
+
+#### 4. linux lts66
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-lts66-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-lts66-using.png" width="800">
+
+
+#### 5. linux mainline
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-mainline-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-mainline-using.png" width="800">
+
+
+#### 6. linux rt
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-rt-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-rt-using.png" width="800">
+
+
+#### 7. linux rt lts
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-rt-lts-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-rt-lts-using.png" width="800">
+
+
+#### 8. linux tachyon
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-tachyon-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-tachyon-using.png" width="800">
+
+
+#### 9. linux vfio
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-vfio-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-vfio-using.png" width="800">
+
+
+#### 10. linux vfio lts
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-vfio-lts-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-vfio-lts-using.png" width="800">
+
+
+#### 11. linux zen
+berikut hasil testing kernel pada saat tidak menjalankan aplikasi
+<img src="img/linux-zen-idle.png" width="800">
+
+Di bawah ini adalah hasil testing ketika membuka aplikasi youtube dan slims
+<img src="img/linux-zen-using.png" width="800">
 
 ### desktop environment
 
