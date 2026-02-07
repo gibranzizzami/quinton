@@ -4,15 +4,13 @@
 
 ## Background
 
-Riset ini dilakukan dengan niat awal untuk memperoleh pemahaman yang objektif dan terukur terhadap objek yang diteliti, khususnya dari sisi performa, stabilitas, dan pengalaman penggunaan (user experience). Kebutuhan akan data yang faktual muncul dari adanya perbedaan klaim, asumsi, serta pengalaman subjektif yang beredar, sehingga diperlukan pendekatan riset yang sistematis dan dapat dipertanggungjawabkan.
-
-Selain itu, riset ini juga bertujuan sebagai dasar pengambilan keputusan teknis di tahap selanjutnya, baik untuk keperluan implementasi, rekomendasi, maupun dokumentasi akademik dan praktis. Dengan melakukan riset terstruktur, diharapkan hasil yang diperoleh tidak hanya relevan secara teknis, tetapi juga aplikatif dalam konteks penggunaan nyata.
+Shelver OS merupakan sistem operasi yang dirancang secara khusus untuk mendukung kebutuhan lembaga GLAM (Gallery, Library, Archives, and Museums). Sistem ini dikembangkan dengan pendekatan fungsional dan berorientasi pada stabilitas, keberlanjutan, serta kemudahan untuk hardware dengan spesifikasi rendah dalam skala global.  
 
 ## Methods
 
 ### Pembentukan dan Pengelolaan Tim
 
-Riset dimulai dengan pembentukan tim kecil yang memiliki pembagian peran yang jelas. Setiap anggota tim diberikan tanggung jawab spesifik, seperti pengujian teknis, pencatatan data, dokumentasi hasil, dan evaluasi pengalaman pengguna. Pengelolaan tim dilakukan dengan prinsip koordinasi terbuka, di mana setiap temuan dan kendala dibahas secara kolektif untuk menghindari bias individu.
+Riset dimulai dengan pembentukan tim yang dimana awalnya ada pergantian ketua yang dilakukan secara musyawarah. Pembentukan tim dilakukan secara sukarela, tanpa ada paksaan untuk bergabung dengan tim riset shelver os. Untuk pengelolaan tim, dilakukan berdasarkan kemampuan individu, seperti kemampuan dalam melakukan instalasi kernel, desktop environment, dan browser. Testing terkait riset pun sudah dibagi kepada individu yang mampu melakukan testing.
 
 ### Proses Riset
 
